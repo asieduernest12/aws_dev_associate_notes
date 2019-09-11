@@ -1,0 +1,37 @@
+## Intro 
+Aws - Amazon Web Services
+
+## Syllabus 
+  1. Learning AWS for Developers
+  2. AWS for Developers: Deploying Your Application to the Cloud 
+  3. AWS for Developers: Data-Driven Serverless Applications with Kinesisgg
+  4. AWS Security Best Practices for Developers
+  5. AWS for Developers: Simple Email Service (SES)
+
+ 1. Learning AWS for Developers
+    * introduction 
+      console overview (labda, s3)
+    * IAM: managing access to resource with users and roles
+        - groups and users: users assigned to groups 
+        - roles and policies: policies assinged to roles
+        roles can be assigned to groups or users
+        
+        roles and policies created atomatically when new services are created
+      * Roles and policies
+        policies spec permission, defined in json, affects users, app code, aws services
+        role collection of perms
+        Exercise create role with permission to read s3 and dynamodb full access
+       
+       - Cognito: provide user and identity pools
+          user pools: provide sign in and out options for users
+          identity pools: provide credentials that grant access to users to access aws services
+          
+       - sdks
+        presents overview of sdk tools
+        cloud9
+        
+       - s3 storage
+        accessible through console, api, ftp
+       
+       - dynamodb
+       - simple queue service sqs
